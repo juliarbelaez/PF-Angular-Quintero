@@ -13,6 +13,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { ReactiveFormsModule } from "@angular/forms";
 import { MatInputModule } from "@angular/material/input";
 import { MatSelectModule } from "@angular/material/select";
+import { PipesModule } from "../../../../share/pipes/pipes.module";
 
 @NgModule({
   declarations: [InscripcionesComponent, InscripcionDialogComponent],
@@ -27,6 +28,7 @@ import { MatSelectModule } from "@angular/material/select";
     ReactiveFormsModule,
     MatInputModule,
     MatSelectModule,
+    PipesModule,
   ],
   exports: [InscripcionesComponent],
 })
