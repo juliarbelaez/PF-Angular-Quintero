@@ -7,15 +7,18 @@ Como librerías externas se usó Angular Material y Bootstrap
 
 Credenciales para ingresar al proyecto:
 
-Rol de administrador
+## Rol de administrador
+
 Correo: juli@mail.com  
 Contraseña: 12345678
 
-Rol de usuario
+## Rol de usuario
+
 Correo: gabriel@mail.com
 Contraseña: 12345678
 
-Rol de estudiante
+## Rol de estudiante
+
 Correo: julian@mail.com
 Contraseña: 12345678
 
