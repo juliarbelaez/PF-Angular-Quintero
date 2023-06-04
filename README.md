@@ -1,4 +1,23 @@
-# Preentrega01
+# Entrega Proyecto Final Angular
+
+Hecho por: Juliana Quintero Arbeláez
+Comisión: Angular 411190
+
+Como librerías externas se usó Angular Material y Bootstrap
+
+Credenciales para ingresar al proyecto:
+
+Rol de administrador
+Correo: juli@mail.com  
+Contraseña: 12345678
+
+Rol de usuario
+Correo: gabriel@mail.com
+Contraseña: 12345678
+
+Rol de estudiante
+Correo: julian@mail.com
+Contraseña: 12345678
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
@@ -25,4 +44,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
 # PF-Angular-Quintero
