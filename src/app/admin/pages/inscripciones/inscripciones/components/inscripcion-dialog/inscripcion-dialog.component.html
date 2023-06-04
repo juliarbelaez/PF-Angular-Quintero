@@ -1,7 +1,7 @@
-<h3 mat-dialog-title>CREAR INSCRIPCION</h3>
+<h4 mat-dialog-title>Llene los datos necesarios para la inscripción</h4>
 <div mat-dialog-content>
-  <form [formGroup]="inscriptionForm">
-    <div>
+  <form [formGroup]="inscriptionForm" class="col">
+    <div class="control">
       <mat-form-field>
         <mat-label>Estudiante</mat-label>
         <mat-select [formControl]="studentIdControl">
@@ -13,7 +13,7 @@
         </mat-select>
       </mat-form-field>
     </div>
-    <div>
+    <div class="control">
       <mat-form-field>
         <mat-label>Curso</mat-label>
         <mat-select [formControl]="selectedCourseControl">

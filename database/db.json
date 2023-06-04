@@ -379,10 +379,34 @@
       "id": 35
     },
     {
-      "subjectId": 4,
-      "studentId": 1036402631,
-      "courseId": 4,
+      "subjectId": null,
+      "studentId": null,
+      "courseId": null,
       "id": 36
+    },
+    {
+      "subjectId": null,
+      "studentId": null,
+      "courseId": null,
+      "id": 37
+    },
+    {
+      "subjectId": null,
+      "studentId": null,
+      "courseId": null,
+      "id": 38
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1,
+      "courseId": 3,
+      "id": 39
+    },
+    {
+      "subjectId": null,
+      "studentId": null,
+      "courseId": null,
+      "id": 40
     }
   ],
   "students": [
