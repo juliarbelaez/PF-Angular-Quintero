@@ -1,0 +1,37 @@
+<div class="container mt-5">
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-7">
+      <div class="card p-3 py-4">
+        <div class="text-center mt-3">
+          <div>
+            <img
+              class="image"
+              src="../../../../../../assets/cursosImage.png"
+              alt="150px"
+              width="100px"
+            />
+          </div>
+          <span>Nombre</span>
+          <h1 class="mt-2 mb-0">
+            {{ curso }}
+          </h1>
+
+          <div class="px-4 mt-1">
+            <p class="fonts">Id curso: {{ curso?.id }}</p>
+            <h5 class="fonts">
+              Fecha inicio curso: {{ curso?.fecha_inicio | date }}
+            </h5>
+            <h5 class="fonts">
+              Fecha fin curso: {{ curso?.fecha_fin | date }}
+            </h5>
+          </div>
+
+          <div class="buttons">
+            <button class="btn btn-outline-primary px-4">Editar</button>
+            <button class="btn btn-primary px-4 ms-3">Eliminar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

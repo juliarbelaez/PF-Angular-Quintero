@@ -1,0 +1,57 @@
+<p>
+  Por favor llene los datos necesarios para inscribir al estudiante al curso
+  requerido:
+</p>
+
+<p *ngIf="(state$ | async)?.loading">CARGANDO DATA...</p>
+
+<div class="container">
+  <button (click)="crearInscripcion()" type="button" class="btn btn-primary">
+    Inscribir
+  </button>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th class="col" scope="col">Id</th>
+        <th class="col" scope="col">Nombre</th>
+        <th class="col" scope="col">Apellido</th>
+        <th class="col" scope="col">E-mail</th>
+        <th class="col" scope="col">Curso</th>
+        <th class="col" scope="col">Eliminar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let inscripcion of (state$ | async)?.inscripciones">
+        <td>{{ inscripcion.student.id }}</td>
+        <td>{{ inscripcion.student.nombre }}</td>
+        <td>{{ inscripcion.student.apellido }}</td>
+        <td>{{ inscripcion.student.email }}</td>
+        <td
+          class="curso"
+          [ngClass]="{
+            inglesA1: inscripcion.subject.nombre === 'INGLÉS A1',
+            inglesA2: inscripcion.subject.nombre === 'INGLÉS A2',
+            inglesB1: inscripcion.subject.nombre === 'INGLÉS B1',
+            inglesB2: inscripcion.subject.nombre === 'INGLÉS B2',
+            inglesC1: inscripcion.subject.nombre === 'INGLÉS C1',
+            francesA1: inscripcion.subject.nombre === 'Francés A1',
+            francesA2: inscripcion.subject.nombre === 'Francés A2',
+            francesB1: inscripcion.subject.nombre === 'Francés B1',
+            francesB2: inscripcion.subject.nombre === 'Francés B2'
+          }"
+        >
+          {{ inscripcion.subject.nombre }}
+        </td>
+        <td>
+          <button
+            (click)="eliminarInscripcionPorId(inscripcion.id)"
+            type="button"
+            class="btn btn-danger"
+          >
+            <span class="glyphicon glyphicon-trash"></span> Eliminar
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,459 @@
+{
+  "users": [
+    {
+      "id": 1036402631,
+      "nombre": "Juliana",
+      "apellido": "Quintero",
+      "email": "juli@mail.com",
+      "password": "12345678",
+      "token": "QFKHNFertyuifghnjmfdskSkj12dk",
+      "role": "admin"
+    },
+    {
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "email": "juan@mail.com",
+      "password": "12345678",
+      "token": "thowlhasYGHGjldhkldhnkefd",
+      "role": "user",
+      "id": 1036402632
+    },
+    {
+      "nombre": "Alejandro",
+      "apellido": "García",
+      "email": "alejandro@mail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 1036402633
+    },
+    {
+      "nombre": "Gabriel",
+      "apellido": "García",
+      "email": "gabriel@mail.com",
+      "password": "12345678",
+      "token": "qazKLSDMEknkfjn2372y48u",
+      "role": "user",
+      "id": 1036402634
+    },
+    {
+      "nombre": "Jose",
+      "apellido": "Jaramillo",
+      "email": "jose@mail.com",
+      "password": "12345678",
+      "token": "jhggvfcdoljkrenLKSHRDN475",
+      "role": "user",
+      "id": 1036402635
+    },
+    {
+      "nombre": "Claudia",
+      "apellido": "García",
+      "email": "claudia@mail.com",
+      "password": "12345678",
+      "token": "khfsna637y4uhrjnBHADKNRIkjhn",
+      "role": "user",
+      "id": 1036402636
+    },
+    {
+      "nombre": "Julian",
+      "apellido": "Jaramillo",
+      "email": "julian@mail.com",
+      "password": "12345678",
+      "token": "jhggvfcdoljkrenLKbvRDN475",
+      "role": "student",
+      "id": 1036402567
+    },
+    {
+      "nombre": "Cecilia",
+      "apellido": "García",
+      "email": "cecilia@mail.com",
+      "password": "12345678",
+      "token": "khfsna637y4uhrjnBjhgDKNRIkjhn",
+      "role": "student",
+      "id": 1036402633
+    },
+    {
+      "nombre": "Juan",
+      "apellido": "Valdez",
+      "email": "juanv@mail.com",
+      "password": "12345678",
+      "token": "jhggvfcdoljkrenLKhgfdRDN475",
+      "role": "student",
+      "id": 1036442665
+    },
+    {
+      "nombre": "Rafael",
+      "apellido": "García",
+      "email": "rafael@mail.com",
+      "password": "12345678",
+      "token": "khfsna637y4uhrjnBHAjhNRIkjhn",
+      "role": "student",
+      "id": 1036350263
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "nombre": "INGLÉS A1",
+      "subjectId": 1,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 2,
+      "nombre": "INGLÉS A2",
+      "subjectId": 2,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 3,
+      "nombre": "INGLÉS B1",
+      "subjectId": 3,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 4,
+      "nombre": "INGLÉS B2",
+      "subjectId": 4,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 5,
+      "nombre": "INGLÉS C1",
+      "subjectId": 5,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 6,
+      "nombre": "FRANCÉS A1",
+      "subjectId": 6,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 7,
+      "nombre": "FRANCÉS A2",
+      "subjectId": 7,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 8,
+      "nombre": "FRANCÉS B1",
+      "subjectId": 8,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    },
+    {
+      "id": 9,
+      "nombre": "FRANCÉS B2",
+      "subjectId": 9,
+      "fecha_inicio": "2022-01-15",
+      "fecha_fin": "2023-06-02"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "nombre": "INGLÉS A1"
+    },
+    {
+      "id": 2,
+      "nombre": "INGLÉS A2"
+    },
+    {
+      "id": 3,
+      "nombre": "INGLÉS B1"
+    },
+    {
+      "id": 4,
+      "nombre": "INGLÉS B2"
+    },
+    {
+      "id": 5,
+      "nombre": "INGLÉS C1"
+    },
+    {
+      "id": 6,
+      "nombre": "FRANCÉS A1"
+    },
+    {
+      "id": 7,
+      "nombre": "FRANCÉS A2"
+    },
+    {
+      "id": 8,
+      "nombre": "FRANCÉS B1"
+    },
+    {
+      "id": 9,
+      "nombre": "FRANCÉS B2"
+    },
+    {
+      "id": 9,
+      "nombre": "FRANCÉS C1"
+    }
+  ],
+  "inscriptions": [
+    {
+      "subjectId": null,
+      "studentId": 1,
+      "courseId": null,
+      "id": 6
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1,
+      "courseId": 3,
+      "id": 7
+    },
+    {
+      "subjectId": null,
+      "studentId": null,
+      "courseId": null,
+      "id": 8
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1,
+      "courseId": 3,
+      "id": 9
+    },
+    {
+      "subjectId": null,
+      "studentId": null,
+      "courseId": null,
+      "id": 10
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402631,
+      "courseId": 3,
+      "id": 11
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "id": 12
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402632,
+      "courseId": 3,
+      "id": 13
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1036402631,
+      "courseId": 2,
+      "id": 14
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1036402631,
+      "courseId": 2,
+      "id": 15
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402632,
+      "courseId": 3,
+      "id": 16
+    },
+    {
+      "subjectId": 5,
+      "studentId": 1036402631,
+      "courseId": 5,
+      "id": 17
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1036402631,
+      "courseId": 2,
+      "id": 18
+    },
+    {
+      "subjectId": 5,
+      "studentId": 1036402632,
+      "courseId": 5,
+      "id": 19
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402631,
+      "courseId": 3,
+      "id": 20
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1,
+      "courseId": 3,
+      "id": 21
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "id": 22
+    },
+    {
+      "subjectId": 1,
+      "studentId": 1036402631,
+      "courseId": 1,
+      "id": 23
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "id": 24
+    },
+    {
+      "subjectId": 4,
+      "studentId": 1,
+      "courseId": 4,
+      "id": 25
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1036402631,
+      "courseId": 2,
+      "id": 26
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1036402631,
+      "courseId": 2,
+      "id": 27
+    },
+    {
+      "subjectId": 4,
+      "studentId": 1036402631,
+      "courseId": 4,
+      "id": 28
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402632,
+      "courseId": 3,
+      "id": 29
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402631,
+      "courseId": 3,
+      "id": 30
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402632,
+      "courseId": 3,
+      "id": 31
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1036402631,
+      "courseId": 2,
+      "id": 32
+    },
+    {
+      "subjectId": null,
+      "studentId": 1,
+      "courseId": null,
+      "id": 33
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402631,
+      "courseId": 3,
+      "id": 34
+    },
+    {
+      "subjectId": 3,
+      "studentId": 1036402631,
+      "courseId": 3,
+      "id": 35
+    },
+    {
+      "subjectId": 4,
+      "studentId": 1036402631,
+      "courseId": 4,
+      "id": 36
+    }
+  ],
+  "students": [
+    {
+      "id": 3,
+      "nombre": "Juliana",
+      "apellido": "Quintero",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 1,
+      "nombre": "Alejandro",
+      "apellido": "Calderón",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 1036402631,
+      "nombre": "Juliana",
+      "apellido": "Quintero",
+      "email": "juli@mail.com",
+      "password": "12345678",
+      "token": "QFKHNFertyuifghnjmfdskSkj12dk",
+      "role": "admin",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "email": "juan@mail.com",
+      "password": "12345678",
+      "token": "thowlhasYGHGjldhkldhnkefd",
+      "role": "user",
+      "id": 1036402632,
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "nombre": "Alejandro",
+      "apellido": "García",
+      "email": "alejandro@mail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 1036402633,
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "nombre": "Gabriel",
+      "apellido": "García",
+      "email": "gabriel@mail.com",
+      "password": "12345678",
+      "token": "qazKLSDMEknkfjn2372y48u",
+      "role": "user",
+      "id": 1036402634,
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "nombre": "Jose",
+      "apellido": "Jaramillo",
+      "email": "jose@mail.com",
+      "password": "12345678",
+      "token": "jhggvfcdoljkrenLKSHRDN475",
+      "role": "user",
+      "id": 1036402635
+    },
+    {
+      "nombre": "Claudia",
+      "apellido": "García",
+      "email": "claudia@mail.com",
+      "password": "12345678",
+      "token": "khfsna637y4uhrjnBHADKNRIkjhn",
+      "role": "user",
+      "id": 1036402636
+    }
+  ]
+}

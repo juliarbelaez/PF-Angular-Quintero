@@ -1,0 +1,78 @@
+<h1 mat-dialog-title>Inscribir cursos</h1>
+<form class="formgrid grid col-12" [formGroup]="cursosForm">
+  <div mat-dialog-content>
+    Por favor llene los datos.
+    <p class="field row">
+      <mat-form-field appearance="fill">
+        <mat-label>Curso</mat-label>
+        <mat-select [formControl]="nombreControl">
+          <mat-option value="INGLÉS A1">INGLÉS A1</mat-option>
+          <mat-option value="INGLÉS A2">INGLÉS A2</mat-option>
+          <mat-option value="INGLÉS B1">INGLÉS B1</mat-option>
+          <mat-option value="INGLÉS B2">INGLÉS B2</mat-option>
+          <mat-option value="INGLÉS B2">INGLÉS C1</mat-option>
+          <mat-option value="FRANCÉS A1">FRANCÉS A1</mat-option>
+          <mat-option value="FRANCÉS A2">FRANCÉS A2</mat-option>
+          <mat-option value="FRANCÉS B1">FRANCÉS B1</mat-option>
+          <mat-option value="FRANCÉS B2">FRANCÉS B2</mat-option>
+        </mat-select>
+        <mat-error *ngFor="let error of nombreControl.errors | keyvalue">{{
+          error | controlError
+        }}</mat-error>
+      </mat-form-field>
+    </p>
+    <p class="field row">
+      <mat-form-field appearance="fill">
+        <mat-label>Elige fecha de inicio del curso</mat-label>
+        <input
+          [formControl]="fechaInicioControl"
+          matInput
+          [matDatepicker]="fechaInicioPicker"
+        />
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="fechaInicioPicker"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #fechaInicioPicker></mat-datepicker>
+        <mat-error *ngFor="let error of fechaInicioControl.errors | keyvalue">{{
+          error | controlError
+        }}</mat-error>
+      </mat-form-field>
+    </p>
+    <p class="field row">
+      <mat-form-field appearance="fill">
+        <mat-label>Elige fecha de fin del curso</mat-label>
+        <input
+          [formControl]="fechaFinControl"
+          matInput
+          [matDatepicker]="fechaFinPicker"
+        />
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="fechaFinPicker"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #fechaFinPicker></mat-datepicker>
+        <mat-error *ngFor="let error of fechaFinControl.errors | keyvalue">{{
+          error | controlError
+        }}</mat-error>
+      </mat-form-field>
+    </p>
+  </div>
+  <div class="col-fixed" style="width: 100px">
+    <div>
+      <button
+        (click)="guardar()"
+        type="submit"
+        mat-raised-button
+        color="accent"
+      >
+        Registrar
+      </button>
+    </div>
+    <div>
+      <button mat-raised-button mat-dialog-close color="warn">Cancelar</button>
+    </div>
+  </div>
+</form>
