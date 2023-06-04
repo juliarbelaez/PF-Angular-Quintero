@@ -26,11 +26,6 @@ const routes: Routes = [
     path: "**",
     redirectTo: "dashboard/homepage",
   },
-  {
-    path: "cursos/editar/:id",
-    component: EstudianteDetalleComponent,
-    canActivate: [RoleGuard],
-  },
 ];
 
 @NgModule({
